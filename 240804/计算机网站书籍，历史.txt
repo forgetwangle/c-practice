@@ -1,1 +1,5 @@
 语言排行：tiobe.com/index.php/content/paperinfo/tpci/index.html
+kr c
+1989，ansi，ansi c，
+iso，c89
+c95,c99,c11
