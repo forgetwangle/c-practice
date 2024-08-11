@@ -43,6 +43,6 @@ int isPrime(int x,int knownPrimes[],int numberOfKnownPrimes){
 }
 
 /*
-
+这种判断素数的方法是靠：新输入的数，能否被已建立的素数表整除来实现。
 */
 
