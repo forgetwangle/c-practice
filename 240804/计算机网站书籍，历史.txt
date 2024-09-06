@@ -3,3 +3,12 @@ kr c
 1989，ansi，ansi c，
 iso，c89
 c95,c99,c11
+
+Windows 10/11 为微软拼音导入小鹤双拼方案 
+按win+R 输入cmd
+
+再粘贴以下内容
+
+    reg add HKCU\Software\Microsoft\InputMethod\Settings\CHS /v UserDefinedDoublePinyinScheme0 /t REG_SZ /d "小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt"
+
+打开输入法的设置菜单，其中已经出现小鹤双拼方案了，将其设置为默认即可。
