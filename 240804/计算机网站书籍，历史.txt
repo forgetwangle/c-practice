@@ -9,6 +9,6 @@ Windows 10/11 为微软拼音导入小鹤双拼方案
 
 再粘贴以下内容
 
-    reg add HKCU\Software\Microsoft\InputMethod\Settings\CHS /v UserDefinedDoublePinyinScheme0 /t REG_SZ /d "小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt"
+reg add HKCU\Software\Microsoft\InputMethod\Settings\CHS /v UserDefinedDoublePinyinScheme0 /t REG_SZ /d "小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt"
 
 打开输入法的设置菜单，其中已经出现小鹤双拼方案了，将其设置为默认即可。
