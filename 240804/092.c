@@ -30,4 +30,14 @@ int main(int argc,char const*argv[])
 argv[0]是命令本身
     当使用Unix的符号链接时，显示符号链接的名字
 
+int main(int argc,char const *argv[]){
+    int i;
+    for(i=0;i<argc;i++){
+        printf("%d:%s\n",i,argv[i]);
+    }
+
+    return 0;
+}
+
+
 */
