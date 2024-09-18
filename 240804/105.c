@@ -17,7 +17,7 @@ int main(int argc,char const*argv[]){
 }
 
 void getStruct(struct point p){//p是一个和y具有相同值的另一个结构变量
-    scanf("%d",&p.x);
+    scanf("%d",&p.x);//.运算符的优先级比&运算符高
     scanf("%d",&p.y);
     printf("%d,%d\n",p.x,p.y);
 }
