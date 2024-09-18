@@ -13,7 +13,7 @@ int numberOfDays(struct date d);
 int main(int argc,char const*argv[]){
     struct date today,tomorrow;
     printf("today is:");
-    scanf("%i %i %i",&today.month,&today.day,&today.year);
+    scanf("%i %i %i",&today.month,&today.day,&today.year);//输入输出时需要一个一个地赋值，不能一次scanf一个结构
     if(today.day!=numberOfDays(today)){
         tomorrow.day=today.day+1;
         tomorrow.month=today.month;
